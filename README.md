@@ -7,4 +7,4 @@ If you want to help me, go to the discord server and open a ticket, and I will t
 # Link
 [Discord](https://discord.gg/cvCpVmkjTF)
 
-site web coming soon.
+[Site Web](https://armando-production.netlify.app)
