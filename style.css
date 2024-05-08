@@ -1,0 +1,189 @@
+@font-face{
+    src: url(Font/Minecraft.ttf);
+    font-family: 'Minecraft', sans-serif;
+}
+body {
+    background-color: #181818;
+    text-align: center;
+    font-family: 'Minecraft';
+}
+.title {
+    box-shadow: black;
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/34/667/797/minecraft-colorful-green-blue-purple-hd-wallpaper-2930d8cd019a8d2be62708ff7031863d.jpg);
+}
+.intro {
+    color: #6f69cc;
+    font-family: "Abril Fatface", serif;
+}
+.text1 {
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+}
+.text2 {
+    color: white;
+    font-family: 'Minecraft', sans-serif;
+}
+.link {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+ }
+  
+  .link:focus,
+  .link:hover {
+    color: #fff;
+  }
+  
+  .link:focus:after,
+  .link:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .link:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+.abril-fatface-regular {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.project {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+    transition: all 2s;
+    color: #fff;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+} 
+.project:hover {
+    background-color: #504c93;
+}
+.discord {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-transition: background-color 300ms ease, border 300ms ease, color 300ms ease;
+    transition: all 2s;
+    color: #fff;
+    line-height: 21px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase
+} 
+.discord:hover {
+    background-color: #5662f6;
+}
+.titleproject {
+    width: 700px;
+}
+.title2 {
+    background-image: url(https://r4.wallpaperflare.com/wallpaper/34/667/797/minecraft-colorful-green-blue-purple-hd-wallpaper-2930d8cd019a8d2be62708ff7031863d.jpg);
+}
+.card {
+    width: 17em;
+    height: 22.5em;
+    background: #353951;
+    transition: 2s ease-in-out;
+    clip-path: polygon(30px 0%, 100% 0, 100% calc(100% - 30px), calc(100% - 30px) 100%, 0 100%, 0% 30px);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: inline-flex;
+    flex-direction: column;
+  }
+  
+  .card span {
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    display: block;
+    font-size: 2em;
+  }
+  
+  .card .info {
+    font-weight: 400;
+    color: black;
+    display: block;
+    text-align: center;
+    font-size: 0.72em;
+    margin: 1em;
+    font-size: 15px;
+  }
+  
+  .card .img {
+    background-image: url(https://cdn.modrinth.com/data/zS48YwTq/7d1df812e0306efa4831ef86ca88f5e123b8e77c.png);
+    background-size: 10em 5.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 17em;
+    height: 5.8em;
+    margin: auto;
+  }
+  
+  .card .share {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+  }
+  
+  .card a {
+    color: white;
+    transition: .4s ease-in-out;
+  }
+  
+  .card a:hover {
+    color: red;
+  }
+  
+  .card button {
+    padding: 0.8em 1.7em;
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    background: #17b85a;
+    color: rgb(0, 0, 0);
+    transition: .4s ease-in-out;
+  }
+  
+  .card button:hover {
+    background: #171717;
+    color: #17b85a;
+    cursor: pointer;
+  }
+a {
+    text-decoration: none;
+}
