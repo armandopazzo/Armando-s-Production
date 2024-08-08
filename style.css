@@ -150,6 +150,16 @@ body {
     height: 5.8em;
     margin: auto;
   }
+
+  .card .imgg {
+    background-image: url(Image/mineasdkijsadjkast_title.png);
+    background-size: 10em 5.8em;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 17em;
+    height: 5.8em;
+    margin: auto;
+  }
   
   .card .share {
     margin-top: 1em;
